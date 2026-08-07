@@ -1,22 +1,28 @@
-def salary_tax(salary):
-  return salary * 0.87
+temp_rent_per_month = 39_000
+temp_price_per_meter = 215_000
+temp_salary = 129_000 * 0.87
+temp_property_price = temp_price_per_meter * 40
 
-def remove_downpayment (property_price):
-  return property_price * 0.80
+def apply_tax(before_tax):
+  return before_tax * 0.87
 
-def final_price(price_per_sqm, meters_qty=40):
+def remove_downpayment (price):
+  return price * 0.80
+
+def calculate_apartment_price(price_per_sqm, meters_qty=40):
   return price_per_sqm * meters_qty
 
-def affordability(salary, property_price):
+def price_to_income_ratio(salary, property_price):
   return property_price / salary
 
-zepka = 100_000
-msk_price_per_sqm = 300_000
+def annual_rent_in_sqm(rent_price_1bedroom, price_per_sqm_secondary):
+  return (rent_price_1bedroom * 12) / price_per_sqm_secondary 
 
-zepka_after_tax = salary_tax(zepka)
-print(zepka_after_tax)
-hata_price = remove_downpayment(final_price(msk_price_per_sqm))
-print(hata_price)
-how_much = affordability(zepka_after_tax, hata_price)
-print(how_much)
+def annual_salary_in_sqm(salary_average, price_per_sqm_secondary):
+  return (salary_average * 12) / price_per_sqm_secondary
+
+print(annual_rent_in_sqm(temp_rent_per_month, temp_price_per_meter))
+print(annual_salary_in_sqm(temp_salary, temp_price_per_meter))
+print(price_to_income_ratio(temp_salary, temp_property_price))
+
 
