@@ -1,0 +1,133 @@
+[
+  {
+    "year": 2013,
+    "salary_average": 39315,
+    "cbr_key_rate": 5.50,
+    "price_per_sqm_new": 90000,
+    "price_per_sqm_secondary": 95000,
+    "moex_dividend_yield": null,
+    "rent_price_1bedroom": 20000,
+    "rent_price_2bedroom": 27000
+
+  },
+  {
+    "year": 2014,
+    "salary_average": 43695,
+    "cbr_key_rate": 7.88,
+    "price_per_sqm_new": 100000,
+    "price_per_sqm_secondary": 105000,
+    "moex_dividend_yield": null,
+    "rent_price_1bedroom": 20000,
+    "rent_price_2bedroom": 28000
+  },
+  {
+    "year": 2015,
+    "salary_average": 45477,
+    "cbr_key_rate": 12.63,
+    "price_per_sqm_new": 100000,
+    "price_per_sqm_secondary": 105000,
+    "moex_dividend_yield": 4.91,
+    "rent_price_1bedroom": 20000,
+    "rent_price_2bedroom": 27000
+  },
+  {
+    "year": 2016,
+    "salary_average": 48715,
+    "cbr_key_rate": 10.58,
+    "price_per_sqm_new": 100000,
+    "price_per_sqm_secondary": 100000,
+    "moex_dividend_yield": 4.85,
+    "rent_price_1bedroom": 20000,
+    "rent_price_2bedroom": 27000
+  },
+  {
+    "year": 2017,
+    "salary_average": 54321,
+    "cbr_key_rate": 9.13,
+    "price_per_sqm_new": 105000,
+    "price_per_sqm_secondary": 100000,
+    "moex_dividend_yield": 5.68,
+    "rent_price_1bedroom": 20000,
+    "rent_price_2bedroom": 27000
+  },
+  {
+    "year": 2018,
+    "salary_average": 60124,
+    "cbr_key_rate": 7.42,
+    "price_per_sqm_new": 110000,
+    "price_per_sqm_secondary": 105000,
+    "moex_dividend_yield": 6.02,
+    "rent_price_1bedroom": 21000,
+    "rent_price_2bedroom": 28000
+  },
+  {
+    "year": 2019,
+    "salary_average": 63235,
+    "cbr_key_rate": 7.33,
+    "price_per_sqm_new": 120000,
+    "price_per_sqm_secondary": 115000,
+    "moex_dividend_yield": 7.88,
+    "rent_price_1bedroom": 22000,
+    "rent_price_2bedroom": 30000
+  },
+  {
+    "year": 2020,
+    "salary_average": 66124,
+    "cbr_key_rate": 5.05,
+    "price_per_sqm_new": 140000,
+    "price_per_sqm_secondary": 135000,
+    "moex_dividend_yield": 6.40,
+    "rent_price_1bedroom": 22000,
+    "rent_price_2bedroom": 30000
+  },
+  {
+    "year": 2021,
+    "salary_average": 73310,
+    "cbr_key_rate": 5.75,
+    "price_per_sqm_new": 175000,
+    "price_per_sqm_secondary": 180000,
+    "moex_dividend_yield": 5.85,
+    "rent_price_1bedroom": 25000,
+    "rent_price_2bedroom": 35000
+  },
+  {
+    "year": 2022,
+    "salary_average": 86630,
+    "cbr_key_rate": 10.62,
+    "price_per_sqm_new": 195000,
+    "price_per_sqm_secondary": 200000,
+    "moex_dividend_yield": 10.68,
+    "rent_price_1bedroom": 30000,
+    "rent_price_2bedroom": 42000
+  },
+  {
+    "year": 2023,
+    "salary_average": 96233,
+    "cbr_key_rate": 9.95,
+    "price_per_sqm_new": 230000,
+    "price_per_sqm_secondary": 200000,
+    "moex_dividend_yield": 7.13,
+    "rent_price_1bedroom": 30000,
+    "rent_price_2bedroom": 45000
+  },
+  {
+    "year": 2024,
+    "salary_average": 110473,
+    "cbr_key_rate": 17.50,
+    "price_per_sqm_new": 270000,
+    "price_per_sqm_secondary": 205000,
+    "moex_dividend_yield": 9.10,
+    "rent_price_1bedroom": 38000,
+    "rent_price_2bedroom": 58000
+  },
+  {
+    "year": 2025,
+    "salary_average": 128900,
+    "cbr_key_rate": 19.17,
+    "price_per_sqm_new": 300000,
+    "price_per_sqm_secondary": 215000,
+    "moex_dividend_yield": 7.75,
+    "rent_price_1bedroom": 39000,
+    "rent_price_2bedroom": 55000
+  }
+]
