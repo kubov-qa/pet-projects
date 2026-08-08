@@ -9,8 +9,7 @@ temp_property_price = temp_price_per_meter * 40
 temp_cbr_rate = 9
 temp_total_mortage_percents = (temp_cbr_rate + MORTGAGE_SPREAD) / 100
 
-def apply_tax(before_tax):
-  return before_tax * 0.87
+
 
 
 def price_to_income_ratio(salary, property_price):
