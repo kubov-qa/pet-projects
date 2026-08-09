@@ -23,13 +23,7 @@ def mortgage_affordability_index(monthly_mortgage_payment, salary):
   percentage_of_salary = (monthly_mortgage_payment / salary) * 100
   return percentage_of_salary
 
-#промежуточный финал
-def price_after_downpayment(price, downpayment_percent=20):
-  return price * (1 - (downpayment_percent / 100))
 
-#промежуточный финал
-def calculate_apartment_price(price_per_sqm, square_meters):
-  return price_per_sqm * square_meters
 
 
 

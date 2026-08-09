@@ -27,3 +27,23 @@ def convert_avg_to_median(average_salary):
   """
   return average_salary * MEDIAN_COEFFICIENT
 
+def calculate_apartment_price(price_per_sqm, square_meters):
+  """Вычисляет полную стоимость квартиры.
+  Args:
+    price_per_sqm (int | float): Цена за квадратный метр.
+    square_meters (int | float): Площадь квартиры в квадратных метрах.
+  Returns:
+    float: Полная стоимость квартиры.
+  """
+  return price_per_sqm * square_meters
+
+def price_after_downpayment(price, downpayment_percent=20):
+  """Вычисляет сумму кредита за вычетом первоначального взноса.
+  Args:
+    price (int | float): Полная стоимость объекта.
+    downpayment_percent (int | float): Размер первоначального взноса в процентах. По умолчанию 20.
+  Returns:
+    float: Сумма, которая идёт в кредит (после вычета ПВ).
+  """
+  return price * (1 - (downpayment_percent / 100))
+
